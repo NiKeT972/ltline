@@ -1,0 +1,73 @@
+{
+  "best_model": "lgbm",
+  "downed_by_current": [
+    {
+      "band": "<0.2 A",
+      "caught": 1.0,
+      "as_downed": 0.5925925925925926,
+      "n": 27
+    },
+    {
+      "band": "0.2-0.5 A",
+      "caught": 0.9545454545454546,
+      "as_downed": 0.5454545454545454,
+      "n": 22
+    },
+    {
+      "band": "0.5-1 A",
+      "caught": 1.0,
+      "as_downed": 0.375,
+      "n": 8
+    },
+    {
+      "band": "1-2 A",
+      "caught": 0.9333333333333333,
+      "as_downed": 0.7333333333333333,
+      "n": 15
+    },
+    {
+      "band": ">2 A",
+      "caught": 1.0,
+      "as_downed": 1.0,
+      "n": 8
+    }
+  ],
+  "downed_by_surface": [
+    {
+      "surface": "dry_asphalt",
+      "caught": 1.0,
+      "as_downed": 0.5555555555555556,
+      "n": 9
+    },
+    {
+      "surface": "dry_concrete",
+      "caught": 1.0,
+      "as_downed": 0.6470588235294118,
+      "n": 17
+    },
+    {
+      "surface": "dry_grass",
+      "caught": 0.9166666666666666,
+      "as_downed": 0.25,
+      "n": 12
+    },
+    {
+      "surface": "dry_soil",
+      "caught": 0.9333333333333333,
+      "as_downed": 0.7333333333333333,
+      "n": 15
+    },
+    {
+      "surface": "wet_sand",
+      "caught": 1.0,
+      "as_downed": 0.7142857142857143,
+      "n": 14
+    },
+    {
+      "surface": "wet_soil",
+      "caught": 1.0,
+      "as_downed": 0.7692307692307693,
+      "n": 13
+    }
+  ]
+}

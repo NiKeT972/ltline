@@ -6,9 +6,11 @@ Built by **Team Data Mavericks** for **Smart India Hackathon 2025** (reached Rou
 **Problem statement #78:** *Software, other than a circuit breaker, that can detect and turn off
 LT lines when the line breaks.* Theme: Smart Automation in Power Systems.
 
-> **v2 in progress** (branch `v2-physics`): real 3-phase 50 Hz waveform simulation with
-> high-impedance (downed conductor) faults and look-alike disturbances.
-> See [docs/simulator.md](docs/simulator.md).
+> **v2 in progress** (branch `v2-physics`): real 3-phase 50 Hz waveforms with downed-conductor
+> (high-impedance) faults and look-alike disturbances. On 640 held-out events, LightGBM on relay-style
+> features trips **99.2% of faults** and **98.1% of broken conductors** with **zero false trips**,
+> where a conventional relay catches **0%** of broken conductors.
+> See [docs/simulator.md](docs/simulator.md) and [docs/results.md](docs/results.md).
 
 ![Dashboard tripping on a short circuit](assets/dashboard_trip.png)
 
