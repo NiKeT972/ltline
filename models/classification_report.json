@@ -1,0 +1,45 @@
+{
+  "Healthy": {
+    "precision": 0.963855421686747,
+    "recall": 1.0,
+    "f1-score": 0.9815950920245399,
+    "support": 400.0
+  },
+  "Break": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 800.0
+  },
+  "Arc": {
+    "precision": 0.9164265129682997,
+    "recall": 0.9636363636363636,
+    "f1-score": 0.9394387001477105,
+    "support": 660.0
+  },
+  "Overload": {
+    "precision": 0.9768664563617245,
+    "recall": 0.929,
+    "f1-score": 0.9523321373654536,
+    "support": 1000.0
+  },
+  "Short Circuit": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1000.0
+  },
+  "accuracy": 0.9753886010362695,
+  "macro avg": {
+    "precision": 0.9714296782033542,
+    "recall": 0.9785272727272728,
+    "f1-score": 0.9746731859075408,
+    "support": 3860.0
+  },
+  "weighted avg": {
+    "precision": 0.9759715346102334,
+    "recall": 0.9753886010362695,
+    "f1-score": 0.9753885275318027,
+    "support": 3860.0
+  }
+}
