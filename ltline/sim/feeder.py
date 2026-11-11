@@ -393,7 +393,12 @@ class FeederSimulator:
         meta.update(kvar=round(q / 1e3, 1), ring_hz=round(fr, 1))
 
     def _ev_load_step(self, rng, t, wt, t0, vs, i_load, i_extra, v_extra, meta):
+        # a look-alike must stay a normal condition: never push the feeder past 95% of rating
+        cur = np.sqrt((i_load ** 2).mean(axis=1)).max()
+        headroom = 0.95 * self.cfg.rated_current / cur - 1
         frac = rng.uniform(0.15, 0.4) * rng.choice([-1, 1])
+        if frac > 0:
+            frac = min(frac, max(headroom, 0.05)) if headroom > 0.05 else -frac
         i_load *= (1 + frac * _step(t, t0, rise=0.01))[None]
         meta.update(step_fraction=round(frac, 3))
 

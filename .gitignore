@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .streamlit/secrets.toml
+data/features.parquet
+models/v2/rf.joblib
+models/v2/rms_rf.joblib
+.pytest_cache/

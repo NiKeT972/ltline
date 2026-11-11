@@ -1,0 +1,677 @@
+{
+  "conventional": {
+    "summary": {
+      "fault_events": 400,
+      "dependability": 0.3825,
+      "correct_type": 0.175,
+      "broken_conductor_caught": 0.0,
+      "normal_events": 240,
+      "false_trips_normal": 1,
+      "false_trips_early": 0,
+      "security": 0.9958333333333333,
+      "median_delay_ms": 61.009330207995035,
+      "per_class": {
+        "DownedConductor": {
+          "caught": 0.125,
+          "correct_type": 0.0,
+          "median_delay_ms": NaN
+        },
+        "OpenConductor": {
+          "caught": 0.225,
+          "correct_type": 0.0,
+          "median_delay_ms": NaN
+        },
+        "Overload": {
+          "caught": 0.5625,
+          "correct_type": 0.3875,
+          "median_delay_ms": 1708.7760813198863
+        },
+        "SeriesArc": {
+          "caught": 0.0,
+          "correct_type": 0.0,
+          "median_delay_ms": NaN
+        },
+        "ShortCircuit": {
+          "caught": 1.0,
+          "correct_type": 0.4875,
+          "median_delay_ms": 40.90234429688033
+        },
+        "Normal/capacitor_switching": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/load_step": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/motor_start": {
+          "false_trip_rate": 0.025,
+          "n": 40
+        },
+        "Normal/none": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/nonlinear_load": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/single_phase_load": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        }
+      }
+    },
+    "settings": {
+      "inst_x_rated": 2.0,
+      "overload_x_rated": 1.1,
+      "overload_cycles": 75,
+      "earth_fault_A": 120
+    }
+  },
+  "rms_rf": {
+    "summary": {
+      "fault_events": 400,
+      "dependability": 0.77,
+      "correct_type": 0.5575,
+      "broken_conductor_caught": 0.8875,
+      "normal_events": 240,
+      "false_trips_normal": 85,
+      "false_trips_early": 29,
+      "security": 0.6458333333333333,
+      "median_delay_ms": 304.3088613687397,
+      "per_class": {
+        "DownedConductor": {
+          "caught": 0.9,
+          "correct_type": 0.3875,
+          "median_delay_ms": 304.3088613687397
+        },
+        "OpenConductor": {
+          "caught": 0.9,
+          "correct_type": 0.375,
+          "median_delay_ms": 303.85919691181317
+        },
+        "Overload": {
+          "caught": 0.9375,
+          "correct_type": 0.925,
+          "median_delay_ms": 426.7275718908143
+        },
+        "SeriesArc": {
+          "caught": 0.1375,
+          "correct_type": 0.125,
+          "median_delay_ms": 881.2578266430603
+        },
+        "ShortCircuit": {
+          "caught": 0.975,
+          "correct_type": 0.975,
+          "median_delay_ms": 46.68360495612561
+        },
+        "Normal/capacitor_switching": {
+          "false_trip_rate": 0.25,
+          "n": 40
+        },
+        "Normal/load_step": {
+          "false_trip_rate": 0.3,
+          "n": 40
+        },
+        "Normal/motor_start": {
+          "false_trip_rate": 0.825,
+          "n": 40
+        },
+        "Normal/none": {
+          "false_trip_rate": 0.25,
+          "n": 40
+        },
+        "Normal/nonlinear_load": {
+          "false_trip_rate": 0.275,
+          "n": 40
+        },
+        "Normal/single_phase_load": {
+          "false_trip_rate": 0.225,
+          "n": 40
+        }
+      }
+    },
+    "threshold": 0.5,
+    "k_cycles": 12,
+    "val": {
+      "fault_events": 329,
+      "dependability": 0.7264437689969605,
+      "correct_type": 0.5440729483282675,
+      "broken_conductor_caught": 0.896,
+      "normal_events": 183,
+      "false_trips_normal": 61,
+      "false_trips_early": 31,
+      "security": 0.6666666666666667,
+      "median_delay_ms": 293.47417959998336,
+      "per_class": {
+        "DownedConductor": {
+          "caught": 0.8703703703703703,
+          "correct_type": 0.46296296296296297,
+          "median_delay_ms": 286.2543805789683
+        },
+        "OpenConductor": {
+          "caught": 0.9154929577464789,
+          "correct_type": 0.4084507042253521,
+          "median_delay_ms": 305.03812158332045
+        },
+        "Overload": {
+          "caught": 0.9047619047619048,
+          "correct_type": 0.873015873015873,
+          "median_delay_ms": 444.7733238221629
+        },
+        "SeriesArc": {
+          "caught": 0.1232876712328767,
+          "correct_type": 0.1232876712328767,
+          "median_delay_ms": 537.7938431746525
+        },
+        "ShortCircuit": {
+          "caught": 0.8970588235294118,
+          "correct_type": 0.8970588235294118,
+          "median_delay_ms": 45.14605277187567
+        },
+        "Normal/capacitor_switching": {
+          "false_trip_rate": 0.21212121212121213,
+          "n": 33
+        },
+        "Normal/load_step": {
+          "false_trip_rate": 0.4074074074074074,
+          "n": 27
+        },
+        "Normal/motor_start": {
+          "false_trip_rate": 0.7142857142857143,
+          "n": 28
+        },
+        "Normal/none": {
+          "false_trip_rate": 0.1724137931034483,
+          "n": 29
+        },
+        "Normal/nonlinear_load": {
+          "false_trip_rate": 0.27586206896551724,
+          "n": 29
+        },
+        "Normal/single_phase_load": {
+          "false_trip_rate": 0.2702702702702703,
+          "n": 37
+        }
+      }
+    },
+    "features": [
+      "i_max",
+      "i1",
+      "i_spread",
+      "v_min_pu",
+      "v1_pu"
+    ]
+  },
+  "rf": {
+    "summary": {
+      "fault_events": 400,
+      "dependability": 0.96,
+      "correct_type": 0.8325,
+      "broken_conductor_caught": 0.90625,
+      "normal_events": 240,
+      "false_trips_normal": 0,
+      "false_trips_early": 1,
+      "security": 1.0,
+      "median_delay_ms": 240.60014451858615,
+      "per_class": {
+        "DownedConductor": {
+          "caught": 0.9125,
+          "correct_type": 0.6125,
+          "median_delay_ms": 304.76971447916833
+        },
+        "OpenConductor": {
+          "caught": 0.9,
+          "correct_type": 0.5625,
+          "median_delay_ms": 311.41014985498504
+        },
+        "Overload": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 245.01913869456195
+        },
+        "SeriesArc": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 238.9251037301039
+        },
+        "ShortCircuit": {
+          "caught": 0.9875,
+          "correct_type": 0.9875,
+          "median_delay_ms": 30.208228096269217
+        },
+        "Normal/capacitor_switching": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/load_step": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/motor_start": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/none": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/nonlinear_load": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/single_phase_load": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        }
+      }
+    },
+    "threshold": 0.5,
+    "k_cycles": 12,
+    "val": {
+      "fault_events": 329,
+      "dependability": 0.9604863221884499,
+      "correct_type": 0.851063829787234,
+      "broken_conductor_caught": 0.896,
+      "normal_events": 183,
+      "false_trips_normal": 0,
+      "false_trips_early": 0,
+      "security": 1.0,
+      "median_delay_ms": 242.19094112177802,
+      "per_class": {
+        "DownedConductor": {
+          "caught": 0.8518518518518519,
+          "correct_type": 0.5925925925925926,
+          "median_delay_ms": 314.8295523101202
+        },
+        "OpenConductor": {
+          "caught": 0.9295774647887324,
+          "correct_type": 0.6197183098591549,
+          "median_delay_ms": 309.59595195259885
+        },
+        "Overload": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 246.38839878638353
+        },
+        "SeriesArc": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 241.80327076301177
+        },
+        "ShortCircuit": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 31.331704542480963
+        },
+        "Normal/capacitor_switching": {
+          "false_trip_rate": 0.0,
+          "n": 33
+        },
+        "Normal/load_step": {
+          "false_trip_rate": 0.0,
+          "n": 27
+        },
+        "Normal/motor_start": {
+          "false_trip_rate": 0.0,
+          "n": 28
+        },
+        "Normal/none": {
+          "false_trip_rate": 0.0,
+          "n": 29
+        },
+        "Normal/nonlinear_load": {
+          "false_trip_rate": 0.0,
+          "n": 29
+        },
+        "Normal/single_phase_load": {
+          "false_trip_rate": 0.0,
+          "n": 37
+        }
+      }
+    },
+    "features": [
+      "i_max",
+      "i_min_ratio",
+      "i_max_ratio",
+      "i_spread",
+      "i1",
+      "i1_ratio",
+      "i2_i1",
+      "d_i2",
+      "res1",
+      "d_res1",
+      "d_res3",
+      "d_res2",
+      "d_res_dc",
+      "res_var",
+      "res_var_max",
+      "res_var_std",
+      "res_ih",
+      "res_ih_ref",
+      "ph_var_rel",
+      "ph_var_abs",
+      "shoulder",
+      "ph_hf",
+      "ih2_rel",
+      "idc_rel",
+      "wk_ratio",
+      "wk_amps",
+      "wk_dc",
+      "wk_h2",
+      "wk_h3",
+      "wk_var",
+      "wk_hf",
+      "wk_shoulder",
+      "wk_angle",
+      "v_min_pu",
+      "v1_pu",
+      "v2_v1",
+      "v_hf",
+      "d_v1_pu",
+      "pf1",
+      "d_pf1",
+      "i1_trend"
+    ]
+  },
+  "lgbm": {
+    "summary": {
+      "fault_events": 400,
+      "dependability": 0.9925,
+      "correct_type": 0.8275,
+      "broken_conductor_caught": 0.98125,
+      "normal_events": 240,
+      "false_trips_normal": 0,
+      "false_trips_early": 0,
+      "security": 1.0,
+      "median_delay_ms": 240.32254131542064,
+      "per_class": {
+        "DownedConductor": {
+          "caught": 0.975,
+          "correct_type": 0.625,
+          "median_delay_ms": 294.8412482937949
+        },
+        "OpenConductor": {
+          "caught": 0.9875,
+          "correct_type": 0.5125,
+          "median_delay_ms": 304.90573237623295
+        },
+        "Overload": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 245.65961809342784
+        },
+        "SeriesArc": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 239.5195952296154
+        },
+        "ShortCircuit": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 30.19006817896197
+        },
+        "Normal/capacitor_switching": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/load_step": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/motor_start": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/none": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/nonlinear_load": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/single_phase_load": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        }
+      }
+    },
+    "threshold": 0.6,
+    "k_cycles": 12,
+    "val": {
+      "fault_events": 329,
+      "dependability": 0.9848024316109423,
+      "correct_type": 0.8267477203647416,
+      "broken_conductor_caught": 0.96,
+      "normal_events": 183,
+      "false_trips_normal": 0,
+      "false_trips_early": 0,
+      "security": 1.0,
+      "median_delay_ms": 239.5093034962503,
+      "per_class": {
+        "DownedConductor": {
+          "caught": 0.9444444444444444,
+          "correct_type": 0.5555555555555556,
+          "median_delay_ms": 288.0345542990109
+        },
+        "OpenConductor": {
+          "caught": 0.971830985915493,
+          "correct_type": 0.5352112676056338,
+          "median_delay_ms": 302.4783585392179
+        },
+        "Overload": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 246.38839878638353
+        },
+        "SeriesArc": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 241.7863642075313
+        },
+        "ShortCircuit": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 31.02200861973814
+        },
+        "Normal/capacitor_switching": {
+          "false_trip_rate": 0.0,
+          "n": 33
+        },
+        "Normal/load_step": {
+          "false_trip_rate": 0.0,
+          "n": 27
+        },
+        "Normal/motor_start": {
+          "false_trip_rate": 0.0,
+          "n": 28
+        },
+        "Normal/none": {
+          "false_trip_rate": 0.0,
+          "n": 29
+        },
+        "Normal/nonlinear_load": {
+          "false_trip_rate": 0.0,
+          "n": 29
+        },
+        "Normal/single_phase_load": {
+          "false_trip_rate": 0.0,
+          "n": 37
+        }
+      }
+    },
+    "features": [
+      "i_max",
+      "i_min_ratio",
+      "i_max_ratio",
+      "i_spread",
+      "i1",
+      "i1_ratio",
+      "i2_i1",
+      "d_i2",
+      "res1",
+      "d_res1",
+      "d_res3",
+      "d_res2",
+      "d_res_dc",
+      "res_var",
+      "res_var_max",
+      "res_var_std",
+      "res_ih",
+      "res_ih_ref",
+      "ph_var_rel",
+      "ph_var_abs",
+      "shoulder",
+      "ph_hf",
+      "ih2_rel",
+      "idc_rel",
+      "wk_ratio",
+      "wk_amps",
+      "wk_dc",
+      "wk_h2",
+      "wk_h3",
+      "wk_var",
+      "wk_hf",
+      "wk_shoulder",
+      "wk_angle",
+      "v_min_pu",
+      "v1_pu",
+      "v2_v1",
+      "v_hf",
+      "d_v1_pu",
+      "pf1",
+      "d_pf1",
+      "i1_trend"
+    ]
+  },
+  "cnn": {
+    "summary": {
+      "fault_events": 400,
+      "dependability": 0.98,
+      "correct_type": 0.7925,
+      "broken_conductor_caught": 0.99375,
+      "normal_events": 240,
+      "false_trips_normal": 12,
+      "false_trips_early": 6,
+      "security": 0.95,
+      "median_delay_ms": 240.32254131542064,
+      "per_class": {
+        "DownedConductor": {
+          "caught": 0.9875,
+          "correct_type": 0.525,
+          "median_delay_ms": 244.3757918589291
+        },
+        "OpenConductor": {
+          "caught": 1.0,
+          "correct_type": 0.525,
+          "median_delay_ms": 239.85798132961776
+        },
+        "Overload": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 246.74194221479107
+        },
+        "SeriesArc": {
+          "caught": 0.9875,
+          "correct_type": 0.9875,
+          "median_delay_ms": 243.60758016641526
+        },
+        "ShortCircuit": {
+          "caught": 0.925,
+          "correct_type": 0.925,
+          "median_delay_ms": 30.316122868238924
+        },
+        "Normal/capacitor_switching": {
+          "false_trip_rate": 0.025,
+          "n": 40
+        },
+        "Normal/load_step": {
+          "false_trip_rate": 0.2,
+          "n": 40
+        },
+        "Normal/motor_start": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/none": {
+          "false_trip_rate": 0.0,
+          "n": 40
+        },
+        "Normal/nonlinear_load": {
+          "false_trip_rate": 0.05,
+          "n": 40
+        },
+        "Normal/single_phase_load": {
+          "false_trip_rate": 0.025,
+          "n": 40
+        }
+      }
+    },
+    "threshold": 0.6,
+    "k_cycles": 12,
+    "val": {
+      "fault_events": 301,
+      "dependability": 0.9833887043189369,
+      "correct_type": 0.8039867109634552,
+      "broken_conductor_caught": 0.9833333333333333,
+      "normal_events": 211,
+      "false_trips_normal": 9,
+      "false_trips_early": 2,
+      "security": 0.957345971563981,
+      "median_delay_ms": 241.38547184262194,
+      "per_class": {
+        "DownedConductor": {
+          "caught": 0.9841269841269841,
+          "correct_type": 0.5714285714285714,
+          "median_delay_ms": 243.85620070376126
+        },
+        "OpenConductor": {
+          "caught": 0.9824561403508771,
+          "correct_type": 0.49122807017543857,
+          "median_delay_ms": 240.79408704782202
+        },
+        "Overload": {
+          "caught": 1.0,
+          "correct_type": 1.0,
+          "median_delay_ms": 248.24626706554542
+        },
+        "SeriesArc": {
+          "caught": 0.9850746268656716,
+          "correct_type": 0.9850746268656716,
+          "median_delay_ms": 248.5563401132561
+        },
+        "ShortCircuit": {
+          "caught": 0.9591836734693877,
+          "correct_type": 0.9591836734693877,
+          "median_delay_ms": 32.536570135221595
+        },
+        "Normal/capacitor_switching": {
+          "false_trip_rate": 0.0,
+          "n": 36
+        },
+        "Normal/load_step": {
+          "false_trip_rate": 0.19444444444444445,
+          "n": 36
+        },
+        "Normal/motor_start": {
+          "false_trip_rate": 0.0,
+          "n": 37
+        },
+        "Normal/none": {
+          "false_trip_rate": 0.030303030303030304,
+          "n": 33
+        },
+        "Normal/nonlinear_load": {
+          "false_trip_rate": 0.02702702702702703,
+          "n": 37
+        },
+        "Normal/single_phase_load": {
+          "false_trip_rate": 0.0,
+          "n": 32
+        }
+      }
+    }
+  }
+}
