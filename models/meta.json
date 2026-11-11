@@ -1,0 +1,52 @@
+{
+  "classes": [
+    "Healthy",
+    "Break",
+    "Arc",
+    "Overload",
+    "Short Circuit"
+  ],
+  "features": [
+    "current",
+    "voltage",
+    "current_std",
+    "voltage_std",
+    "current_dabs",
+    "voltage_dabs"
+  ],
+  "default_anomaly_threshold": 0.09331730239161642,
+  "test_accuracy": 0.9753886010362695,
+  "macro_f1": 0.9746731859075408,
+  "anomaly_recall_on_faults": 0.9583815028901734,
+  "anomaly_false_alarm_rate": 0.01,
+  "train_rows": 8240,
+  "test_rows": 3860,
+  "scenario_eval": {
+    "scenarios": 400,
+    "correct_trip_rate": 0.9925,
+    "false_trips": 0,
+    "median_trip_delay_samples": 2.0,
+    "per_fault": {
+      "Break": {
+        "correct": 100,
+        "wrong_type": 0,
+        "missed": 0
+      },
+      "Arc": {
+        "correct": 100,
+        "wrong_type": 0,
+        "missed": 0
+      },
+      "Overload": {
+        "correct": 97,
+        "wrong_type": 3,
+        "missed": 0
+      },
+      "Short Circuit": {
+        "correct": 100,
+        "wrong_type": 0,
+        "missed": 0
+      }
+    }
+  }
+}

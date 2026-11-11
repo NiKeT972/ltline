@@ -1,0 +1,6 @@
+,Healthy,Break,Arc,Overload,Short Circuit
+Healthy,400,0,0,0,0
+Break,0,800,0,0,0
+Arc,2,0,636,22,0
+Overload,13,0,58,929,0
+Short Circuit,0,0,0,0,1000
